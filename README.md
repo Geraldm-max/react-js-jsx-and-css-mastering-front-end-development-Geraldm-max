@@ -1,70 +1,178 @@
-# React.js and Tailwind CSS Assignment
+# 🌟 Week 3 React.js + Tailwind CSS Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A responsive React application built using **Vite**, **Tailwind CSS**, and **React Hooks**.  
+This project demonstrates component architecture, state management, custom hooks, and API integration.
 
-## Assignment Overview
+---
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+## 🚀 **Project Overview**
 
-## Getting Started
+This project was developed for the **Week 3 Front-End Development Assignment**.  
+It showcases:
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- React functional components with props  
+- State management using `useState`, `useEffect`, and `useContext`  
+- Custom hook (`useLocalStorage`)  
+- Integration with a public API (JSONPlaceholder)  
+- Responsive design using Tailwind CSS  
+- Theme toggle (light/dark mode)  
+- Clean folder structure and reusable UI components  
 
-## Files Included
+---
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+## 🌐 **Live Demo**
 
-## Requirements
+🎯 **Deployed App:** [👉 Paste your Vercel Deployment Link here 👈](https://your-vercel-app.vercel.app)
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+Example:  
+`https://week3-react-tailwind-assignment.vercel.app`
 
-## Project Structure
+---
 
-```
+## 🏗️ **Project Structure**
+
+
+
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+├── api/ # API integration functions
+├── components/ # Reusable UI components (Button, Card, Navbar, Footer)
+├── context/ # React context (ThemeContext)
+├── hooks/ # Custom hooks (useLocalStorage)
+├── pages/ # Page components
+├── utils/ # Helper/utility functions
+└── App.jsx # Main app component
 
-## Submission
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+---
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## ⚙️ **Setup Instructions**
 
-## Resources
+### 1️⃣ Clone the Repository
+```bash
+git clone <your-github-repo-url>
+cd week3-react-tailwind-assignment
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Start Development Server
+npm run dev
+
+
+Your app will open automatically at http://localhost:5173
+
+🧩 Tech Stack
+
+⚛️ React.js (v18)
+
+⚡ Vite (for fast builds)
+
+🎨 Tailwind CSS
+
+🔗 React Router DOM
+
+🌍 Axios (for API requests)
+
+🌍 API Integration
+
+This app fetches data from a public API (JSONPlaceholder) and displays it dynamically.
+
+Example Endpoint:
+
+https://jsonplaceholder.typicode.com/posts
+
+🪄 Features
+
+✅ Add, complete, and delete tasks
+✅ Filter tasks (All, Active, Completed)
+✅ Persist tasks using localStorage
+✅ Light/Dark mode toggle using React Context
+✅ Fetch and display API data with loading states
+✅ Responsive design for mobile, tablet, and desktop
+✅ Smooth animations using Tailwind transitions
+
+🎨 Screenshots
+
+To include screenshots of your application:
+
+Create a folder named screenshots in your project root
+
+Add images like:
+
+screenshots/homepage.png
+screenshots/darkmode.png
+screenshots/api-data.png
+
+
+Reference them in this README like below:
+
+### 🖼️ Home Page
+![Home Page](./screenshots/react.PNG)
+
+### 🌗 Dark Mode
+![Dark Mode](./screenshots/react2.PNG)
+
+### API
+![API](./screenshots/react3.PNG)
+
+🧠 Learning Objectives
+
+Through this assignment, I practiced:
+
+JSX structure and props handling
+
+Component-based architecture
+
+React hooks (useState, useEffect, useContext)
+
+Creating a custom hook (useLocalStorage)
+
+Using Tailwind’s utility-first design
+
+Integrating and rendering API data
+
+Deploying a React app using Vercel
+
+🚀 Deployment Guide
+🪣 Step 1: Push to GitHub
+
+If you haven’t already, run these commands:
+
+git init
+git add .
+git commit -m "Initial commit - Week 3 React Tailwind Assignment"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<repo-name>.git
+git push -u origin main
+
+🌐 Step 2: Deploy to Vercel
+
+Visit https://vercel.com
+
+Log in with your GitHub account
+
+Click “New Project”
+
+Import your GitHub repository
+
+Vercel auto-detects it’s a Vite + React app
+
+Click Deploy
+
+Once done, copy your deployment link (e.g. https://week3-react-tailwind.vercel.app)
+Then paste it into the Live Demo section of this README.
+
+📦 Scripts
+Command	Description
+npm run dev	Starts the development server
+npm run build	Builds the app for production
+npm run preview	Previews the production build locally
+🧾 License
+
+This project is for educational purposes only, developed as part of the Week 3 Front-End Development Assignment.
+
+👨‍💻 Author
+
+Gerald Munguti
+Poultry Farmer | Financial Literacy Trainer | Software Engineer
+📍 Machakos, Kenya
