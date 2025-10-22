@@ -22,12 +22,8 @@ It showcases:
 
 ## 🌐 **Live Demo**
 
-🎯 **Deployed App:** [👉 Paste your Vercel Deployment Link here 👈](https://your-vercel-app.vercel.app)
+🎯 **Deployed App: react-js-jsx-and-css-mastering-fron-gules.vercel.app
 
-Example:  
-`https://week3-react-tailwind-assignment.vercel.app`
-
----
 
 ## 🏗️ **Project Structure**
 
