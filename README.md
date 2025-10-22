@@ -20,11 +20,13 @@ It showcases:
 
 ---
 
-## 🌐 **Live Demo**
 
-🎯 **Deployed App: react-js-jsx-and-css-mastering-fron-gules.vercel.app
+🎯 **Deployed App:** [👉 Paste your Vercel Deployment Link here 👈](https://react-js-jsx-and-css-mastering-fron-gules.vercel.app/))
 
+Example:  
+`https://week3-react-tailwind-assignment.vercel.app`
 
+---
 ## 🏗️ **Project Structure**
 
 
